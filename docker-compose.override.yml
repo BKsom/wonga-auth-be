@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  auth-service:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+  user-service:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+  api-gateway:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development

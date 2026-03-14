@@ -1,0 +1,10 @@
+bin/
+obj/
+*.user
+.vs/
+.vscode/
+*.suo
+.DS_Store
+*.log
+.env
+.env.local
